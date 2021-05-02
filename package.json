@@ -1,0 +1,19 @@
+{
+  "name": "express_todo",
+  "version": "0.1.0",
+  "description": "Express To Do CRUD App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJCMN/Express_ToDo.git"
+  },
+  "author": "CCLLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SJCMN/Express_ToDo/issues"
+  },
+  "homepage": "https://github.com/SJCMN/Express_ToDo#readme"
+}
