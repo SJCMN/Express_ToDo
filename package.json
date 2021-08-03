@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/SJCMN/Express_ToDo/issues"
   },
-  "homepage": "https://github.com/SJCMN/Express_ToDo#readme"
+  "homepage": "https://github.com/SJCMN/Express_ToDo#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "uuid": "^8.3.2"
+  }
 }

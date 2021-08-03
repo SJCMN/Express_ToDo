@@ -1,0 +1,20 @@
+<body>
+  <main>
+    <div class="container-fluid bd-layout">
+        <div class="row"><div class="col-md-2 p-3">
+          <aside class="bd-sidebar">
+            <strong class="border-bottom"></strong>
+              <div class="btn-group">
+                <a class="btn btn-sm btn-outline-secondary" href="/lists/new">New List</a>
+                  </div>
+                    <% for (let l of toDoList) { %> 
+                      <ul class="list-unstyled">
+                        <li class="nav-item"><a class="bd-links btn" href="/lists/<%= l.listId %>" ><%= l.listName %></a></li>
+                          </ul>
+                          <% } %> 
+                            </aside>
+                              </div>
+
+
+
+

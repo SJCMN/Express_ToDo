@@ -1,0 +1,32 @@
+<%- include('partials/head.ejs') %> 
+    <%- include('partials/navbar.ejs') %> 
+        <%- include('partials/sidebar.ejs') %> 
+            <div class="col py-5 bg-light">
+                <div class="col">
+                    <div class="card list-group-item-action">
+                        <div class="card-body">
+                            <h2 class="card-title">new list</h2>
+                            <form class="list-group list-group-flush-action" action="/lists" method="POST">                         
+                                <div>
+                                    <input class= "form-control" type="textbox" placeholder="list name" name="listName"></input>
+                                    <!-- <div contenteditable="true" role="text" aria-multiline="true" id="listName" class="card-title" placeholder="New List" name="listName" aria-label="List Name" class="card-title">
+                                    </div> -->
+                                </div>
+                                <div>
+                                    <input class="form-control" type="textbox" placeholder="list item" name="listItems[]">
+
+                                    <!-- <div contenteditable="true" role="textbox" aria-multiline="true" id="listItems" placeholder="New Item" name="listItems[]" aria-label="List Item">new item</div>
+                                    <div contenteditable="true" role="textbox" aria-multiline="true" id="listItems" placeholder="New Item" name="listItems[]" aria-label="List Item">new item</div> -->
+                                </div>
+                                <div class="input-group">
+                                    <button class="btn btn-sm btn-outline-secondary">Save</button>
+                                        <a class="btn btn-sm btn-outline-secondary" href="/lists">Lists</a>
+                                    </div>    
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+<%- include('partials/footer.ejs') %>
